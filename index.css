@@ -1,0 +1,26 @@
+#content{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+.card{
+    align-items: center;
+}
+
+.card-title{
+    text-align: center;
+}
+.card-text{
+    max-height: 250px;
+    max-width: 250px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
